@@ -108,7 +108,8 @@ export default {
 | borderRadius | String | No | null | 0.1em |
 
 ## Items
-The array `items` defining the context menu consists of several `item`. The properties of `item` is listed here:
+The array `items` defining the context menu consists of several `item`. The properties of `item` is listed here.
+
 | prop    | type  | required |
 |---------|-------|----------|
 | text | String | Yes |
@@ -116,3 +117,5 @@ The array `items` defining the context menu consists of several `item`. The prop
 | click | function | No |
 | divider | boolean | No |
 | disabled | boolean | No |
+
+
