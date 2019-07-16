@@ -1,0 +1,40 @@
+{
+  "name": "@kiyoaki_w/vue-context",
+  "version": "1.0.0",
+  "description": "A customizable context menu component built for Vue2, supporting fontawesome icons, auto right/bottom boundary detection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiyoaki-w/Ki-vue-context.git"
+  },
+  "keywords": [
+    "vue",
+    "context",
+    "menu",
+    "icon",
+    "customize"
+  ],
+  "author": "wyp",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "bugs": {
+    "url": "https://github.com/Kiyoaki-w/Ki-vue-context/issues"
+  },
+  "homepage": "https://github.com/Kiyoaki-w/Ki-vue-context#readme"
+}
