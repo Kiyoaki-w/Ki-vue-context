@@ -2,9 +2,10 @@
 A customizable context menu component built for Vue2, supporting fontawesome icons, auto right/bottom boundary detection.
 
 ## Demo
-![demo](https://github.com/Kiyoaki-w/Ki-vue-context/blob/master/demo.gif)
+![demo.gif](https://github.com/Kiyoaki-w/Ki-vue-context/blob/master/demo.gif)
+[demo on github](https://github.com/Kiyoaki-w/Ki-vue-context/)
 
-A built demo has been provided in the directory `/demo`. Use any static website server to check it.
+A built demo is provided in the directory `/demo`. Use any static website server to check it.
 
 ```bash
 $ cd ./demo
@@ -108,7 +109,7 @@ export default {
 | borderRadius | String | No | null | 0.1em |
 
 ## Items
-The array `items` defining the context menu consists of several `item`. The properties of `item` is listed here.
+The array `items` defining the context menu consists of several `item`. The properties of `item` are listed here.
 
 | prop    | type  | required |
 |---------|-------|----------|

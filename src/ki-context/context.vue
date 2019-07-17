@@ -19,7 +19,7 @@
         }"
       >
         <font-awesome-icon class="item-icon" v-if="i.icon" :style="{color: i.iconColor}" :icon="i.icon" />
-        <i class="item-placeholder" v-else></i>
+        <font-awesome-icon class="item-icon" v-else :style="{opacity: '0'}" icon="arrow-down" />
         <span class="item-text" :style="{color: i.textColor}">{{i.text}}</span>
       </li>
     </ul>
@@ -134,14 +134,9 @@ export default {
   cursor: context-menu;
 }
 .container .menu .item-icon{
-  padding: 0 8px;
+  padding: 0 4px;
   width: 20px;
-  font-size: 0.85em;
-  text-align: center;
-}
-.container .menu .item-placeholder{
-  padding: 0 18px;
-  font-size: 0.95em;
+  font-size: 0.90em;
   text-align: center;
 }
 .container .menu .item-text{
